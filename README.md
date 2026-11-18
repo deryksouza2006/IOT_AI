@@ -23,7 +23,6 @@ Global Solution 2026/2 · Disruptive Architectures: IoT, IoB & Generative IA
 | OpenAPI | [Contrato da API](https://agroconecta-api-ms1a.onrender.com/v3/api-docs) |
 | Disponibilidade | [Health check](https://agroconecta-api-ms1a.onrender.com/actuator/health) |
 | Evidências | [Relatórios de testes e integração](evidencias/README.md) |
-| Vídeo | A adicionar |
 
 ## O projeto
 
