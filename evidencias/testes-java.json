@@ -1,0 +1,1141 @@
+{
+  "collectedAt": "2026-11-18T13:46:27.047669+00:00",
+  "javaCommit": "9c0165f80282becda19ba0f27c82d9c9344c825e",
+  "suiteCount": 21,
+  "totals": {
+    "tests": 182,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "suites": [
+    {
+      "name": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 48.1,
+      "cases": [
+        {
+          "name": "timeoutReleasesLeaseWithoutSavingProviderOutput",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "liveLeaseIsExclusiveAndStaleWorkerIsFenced",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "failureIsSanitizedAndManualRetryUsesAtomicOutboxAndCooldown",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "exhaustionMarksFailureAndDeletingUnanalyzedReadingCleansAnalysisExplicitly",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "manualRetryRequiresQueuedStateAndEnforcesLifetimeLimit",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "completesWithPrivateContextSourcesAndIdempotence",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "concurrentClaimsOnlyReserveOneAttempt",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "listsArePagedNewestFirstAndAllEndpointsEnforceOwnershipAndAuthentication",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidStructuredOutputNeverBecomesRecommendation",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ragLoaderIsIdempotentAndRetrievesRealPgVectorDocumentsWithoutGoogle",
+          "class": "br.com.fiap.citizentech.analysis.AgronomicAnalysisIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 2.402,
+      "cases": [
+        {
+          "name": "enabledProviderRequiresAKeyAndCannotChangeExistingVectorDimensions",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        },
+        {
+          "name": "fakeProviderNeverInstantiatesGoogleClientsOrRequiresAKey",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        },
+        {
+          "name": "modelAndTimeoutRemainOverridableWithoutEditingConfiguration",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        },
+        {
+          "name": "googleSdkHasOneAttemptAndEmbeddingUsesTheSameBoundedClient",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        },
+        {
+          "name": "disabledAiStartsWithoutKeyAndBindsDefinitiveDefaultsToGoogleGenai",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        },
+        {
+          "name": "enabledSpringAiCompositionBuildsChatAndEmbeddingWithoutCallingGoogle",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidTimeoutOrderingOrMobileDeadlineIsRejected",
+          "class": "br.com.fiap.citizentech.analysis.config.AiConfigurationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.analysis.GeminiManualTests",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "seconds": 0.0,
+      "cases": [
+        {
+          "name": "realGeminiReturnsValidStructuredAdviceWithInstitutionalSources",
+          "class": "br.com.fiap.citizentech.analysis.GeminiManualTests",
+          "status": "skipped"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.098,
+      "cases": [
+        {
+          "name": "disabledConfigurationDoesNotImportRealProviderBeansWithoutApiKey",
+          "class": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidJsonIsClassifiedWithoutLeakingTheProviderOutput",
+          "class": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+          "status": "passed"
+        },
+        {
+          "name": "retrievesOnlyAttributedPassagesAndPreservesSources",
+          "class": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+          "status": "passed"
+        },
+        {
+          "name": "disabledAiDoesNotResolveModelsOrOpenProcessingTransactions",
+          "class": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+          "status": "passed"
+        },
+        {
+          "name": "unsafeOrUnattributedSourceUrlsNeverReachGuidance",
+          "class": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+          "status": "passed"
+        },
+        {
+          "name": "structuredOutputKeepsInjectionInsideDataAndSearchDisabled",
+          "class": "br.com.fiap.citizentech.analysis.RagAndPromptTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 10.079,
+      "cases": [
+        {
+          "name": "registerNormalizesEmailHashesPasswordAndIssuesProducerJwt",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registerRejectsRoleField(String)[1]",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registerRejectsRoleField(String)[2]",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registerRejectsRoleField(String)[3]",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "disabledUserCannotLogin",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "meForDeletedUserReturnsNotFound",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "meWithoutTokenReturnsStandardUnauthorizedResponse",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "duplicateEmailReturnsConflict",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "wrongIssuerReturnsUnauthorized",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "meWithTokenReturnsDatabaseUserWithoutPasswordOrSession",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registrationValidatesRequiredNameAndEmail",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registerRejectsInvalidPassword(String)[1]",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registerRejectsInvalidPassword(String)[2]",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registerRejectsInvalidPassword(String)[3]",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "incorrectPasswordReturnsUnauthorized",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "otherRoutesRequireJwtAndHealthIsPublic",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "unknownUserReturnsSameUnauthorizedResponse",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "malformedTokenReturnsUnauthorized",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "supportsSeventyTwoUnicodePasswordCharacters",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "tamperedSignatureReturnsUnauthorized",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "expiredTokenReturnsUnauthorized",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "registrationValidatesMaximumLengths",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "validLoginReturnsTokenAndUser",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "meRejectsExistingTokenAfterUserIsDisabled",
+          "class": "br.com.fiap.citizentech.auth.AuthIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.auth.JwtPropertiesTests",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.062,
+      "cases": [
+        {
+          "name": "rejectsNonPositiveExpirationAtStartup",
+          "class": "br.com.fiap.citizentech.auth.JwtPropertiesTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsMissingSecretAtStartup",
+          "class": "br.com.fiap.citizentech.auth.JwtPropertiesTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsShortSecretAtStartup",
+          "class": "br.com.fiap.citizentech.auth.JwtPropertiesTests",
+          "status": "passed"
+        },
+        {
+          "name": "acceptsMinimumSecretLength",
+          "class": "br.com.fiap.citizentech.auth.JwtPropertiesTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.CitizentechApiApplicationTests",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 4.572,
+      "cases": [
+        {
+          "name": "contextLoads",
+          "class": "br.com.fiap.citizentech.CitizentechApiApplicationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 4.563,
+      "cases": [
+        {
+          "name": "invalidIdsAndPaginationUseTheExistingErrorFormat",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "capacityConvertsBothDirectionsAndExcludesPreviousValueOnUpdate(String, String, String, String, String, String)[1]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "capacityConvertsBothDirectionsAndExcludesPreviousValueOnUpdate(String, String, String, String, String, String)[2]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "createGetUpdateAndDeletePersistAllFieldsAndPreserveMonitoringStatus",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "transferToFullFarmIsRejectedAndDeletingAnAreaReleasesCapacity",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonProducerRolesAndStaleProducerTokenAreRejected(String)[1]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonProducerRolesAndStaleProducerTokenAreRejected(String)[2]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "moveToAnotherOwnedFarmChecksDestinationAndReleasesSourceCapacity",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[1]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[2]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[3]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[4]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[5]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[6]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "coordinatesMustBePairedAndWithinLimitsOnCreateAndUpdate",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "validatesRequiredFieldsLengthsAndNumericPrecision",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "legacyFarmWithoutTotalAreaDoesNotApplyAnInventedLimit",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipAndStatusCannotBeSpecifiedOnCreateOrUpdate(String)[1]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipAndStatusCannotBeSpecifiedOnCreateOrUpdate(String)[2]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipAndStatusCannotBeSpecifiedOnCreateOrUpdate(String)[3]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipAndStatusCannotBeSpecifiedOnCreateOrUpdate(String)[4]",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "concurrentCreatesCannotOverbookTheFarm",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "foreignAndMissingResourcesReturnNotFoundWithoutChangingAnything",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "listsArePaginatedScopedAndFetchFarmNamesWithoutNPlusOne",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "disabledProducerCannotReadOrCreateUsingAnExistingToken",
+          "class": "br.com.fiap.citizentech.croparea.CropAreaIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 2.923,
+      "cases": [
+        {
+          "name": "legacyFarmCanBeUpdatedWithoutLosingExistingMetadata",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "requiredFieldsAndDatabaseLengthAndPrecisionLimitsAreValidated",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonProducerRolesCannotUseAnyFarmOperation(String)[1]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonProducerRolesCannotUseAnyFarmOperation(String)[2]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "missingFarmReturnsTheSameNotFoundForReadUpdateAndDelete",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidIdAndPaginationReturnStandardBadRequest",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyOperationRequiresToken(String, String)[1]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyOperationRequiresToken(String, String)[2]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyOperationRequiresToken(String, String)[3]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyOperationRequiresToken(String, String)[4]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyOperationRequiresToken(String, String)[5]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "requestCannotSpecifyOwnershipOnCreateOrUpdate(String)[1]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "requestCannotSpecifyOwnershipOnCreateOrUpdate(String)[2]",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "deletingFarmWithCropAreaReturnsConflictAndPreservesBothRecords",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidCreateAndUpdateReturnFieldErrorsWithoutChangingStoredFarm",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "producerCanCreateReadUpdateAndDeleteFarm",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "listIsPaginatedAndContainsOnlyTheCurrentProducersFarms",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "anotherProducerCannotReadChangeOrDeleteFarm",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "disabledProducerIsRejectedEvenWithPreviouslyIssuedToken",
+          "class": "br.com.fiap.citizentech.farm.FarmIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 4.15,
+      "cases": [
+        {
+          "name": "invalidIdsAndPaginationUseTheExistingErrorFormat",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "listsAreScopedPaginatedAndLoadCropAreaAndFarmWithoutNPlusOne",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "disabledProducerCannotReadOrCreateWithAnExistingToken",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "validatesRequiredFieldsLengthsDatesAndEnumsOnCreateAndUpdate",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonProducerRolesAndStaleProducerTokenAreRejected(String)[1]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonProducerRolesAndStaleProducerTokenAreRejected(String)[2]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[1]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[2]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[3]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[4]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[5]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "everyEndpointRequiresToken(String, String)[6]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "creationRejectsClientStatusEvenWhenActive",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "lifecyclePersistsDefaultsAndFieldsAndAllowsStatusChangesAndTransfer",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipFieldsAreRejectedOnCreateAndUpdate(String)[1]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipFieldsAreRejectedOnCreateAndUpdate(String)[2]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipFieldsAreRejectedOnCreateAndUpdate(String)[3]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownershipFieldsAreRejectedOnCreateAndUpdate(String)[4]",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "cropAreaDeletionIsBlockedUntilItsSensorsAreDeletedWithoutCascade",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "foreignAndMissingSensorsAndCropAreasReturnNotFoundAndCannotBeChanged",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "concurrentRegistrationOfTheSameDeviceCodeReturnsCreatedAndConflict",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "duplicateCodesAreCaseInsensitiveGloballyAndUpdateExcludesTheSameSensor",
+          "class": "br.com.fiap.citizentech.sensor.SensorIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.sensorreading.OutboxUnitTests",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.651,
+      "cases": [
+        {
+          "name": "missingReadingThrowsSoTheListenerCanRetryAndDeadLetter",
+          "class": "br.com.fiap.citizentech.sensorreading.OutboxUnitTests",
+          "status": "passed"
+        },
+        {
+          "name": "publisherRecordsConfirmationAndKeepsFailureHistoryWithBoundedRetries",
+          "class": "br.com.fiap.citizentech.sensorreading.OutboxUnitTests",
+          "status": "passed"
+        },
+        {
+          "name": "rabbitSenderRequiresAckAndRejectsUnroutableMessages",
+          "class": "br.com.fiap.citizentech.sensorreading.OutboxUnitTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.sensorreading.ReadingRabbitIntegrationTests",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 16.175,
+      "cases": [
+        {
+          "name": "realPublicationIsConfirmedAndConsumerQueuesTheReading",
+          "class": "br.com.fiap.citizentech.sensorreading.ReadingRabbitIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "sensorDeviceCreatesTraceableRiskJobAndAlert",
+          "class": "br.com.fiap.citizentech.sensorreading.ReadingRabbitIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "nonexistentReadingIsRetriedAndDeliveredToTheRealDlq",
+          "class": "br.com.fiap.citizentech.sensorreading.ReadingRabbitIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 11.244,
+      "cases": [
+        {
+          "name": "foreignAndMissingResourcesAreNotFound",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "createsForEachTypeWithDefaultDateAndPrivateAtomicPayload(String, String)[1]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "createsForEachTypeWithDefaultDateAndPrivateAtomicPayload(String, String)[2]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "createsForEachTypeWithDefaultDateAndPrivateAtomicPayload(String, String)[3]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "createsForEachTypeWithDefaultDateAndPrivateAtomicPayload(String, String)[4]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "outboxInsertFailureRollsBackTheReading",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "requiresTheMeasurementForTheSensorType(String)[1]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "requiresTheMeasurementForTheSensorType(String)[2]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "requiresTheMeasurementForTheSensorType(String)[3]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "validatesMeasurementsLimitsTimeAndManualSource",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "publishersSkipEventsAlreadyLockedByAnotherPublisher",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsInactiveAndFaultySensors(String)[1]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsInactiveAndFaultySensors(String)[2]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "consumptionIsIdempotentAndAnalyzedReadingsCannotBeDeleted",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsApplicationControlledAndOwnerFields(String)[1]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsApplicationControlledAndOwnerFields(String)[2]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsApplicationControlledAndOwnerFields(String)[3]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsApplicationControlledAndOwnerFields(String)[4]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsApplicationControlledAndOwnerFields(String)[5]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsApplicationControlledAndOwnerFields(String)[6]",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "deletingReadingCancelsPendingEventAndSensorIsProtectedUntilThen",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "publicationFailureIsPersistedAndBackoffPreventsImmediateRetry",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "listsAndLatestAreOrderedScopedAndPaginatedAndReadingsAreImmutable",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "allRoutesRequireTokenAndProducerMustRemainActive",
+          "class": "br.com.fiap.citizentech.sensorreading.SensorReadingIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.JobGuidanceTests",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 2.653,
+      "cases": [
+        {
+          "name": "unconfirmedReadingOriginIsNeverLabeledManual",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "revocationWhileGeneratingIsNotConvertedIntoSuccessfulFallback",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "timeoutReturnsFallback",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "insufficientContextDoesNotRetrieveOrGenerate",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "persistedFallbackAllowsAnExplicitNewAttemptButSuccessIsReused",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "noSourcesDoesNotInvokeModel",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "ownerDenialNeverCallsProvider",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "providerTransportTimeoutAlsoUsesCallTimeout",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "manualDemoReadingsNeverClaimToBeValidatedRealMeasurements",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "unavailableProviderFallsBackWithoutChangingRisk",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidStructuredOutputHasItsOwnReason",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "invalidJsonConversionHasItsOwnReason",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        },
+        {
+          "name": "onlyRetrievedSourcesReturnedAndModelCannotChangeRisk",
+          "class": "br.com.fiap.citizentech.water.JobGuidanceTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.ProfileValidationTests",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.015,
+      "cases": [
+        {
+          "name": "validatesProfilesAndPairedActivityQuantity",
+          "class": "br.com.fiap.citizentech.water.ProfileValidationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.RainfallCalculatorTests",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.004,
+      "cases": [
+        {
+          "name": "sumsContiguousIntervalsWithoutDoubleCounting",
+          "class": "br.com.fiap.citizentech.water.RainfallCalculatorTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 7.631,
+      "cases": [
+        {
+          "name": "postFallbackIsCommittedAndGetReturnsExactlyThePersistedJson",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "promptContextUsesOnlyOwnedSnapshotAndActivityTypesNotOtherProducers",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "otherOwnerCannotReadGenerateOrSaveGuidance",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "manualProvenanceRequiresAllSnapshotReadingsToExistAndBelongToOwner",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "serviceAlwaysCopiesRiskFromLockedDeterministicResult",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "explicitRetryReplacesFallbackAndSuccessIsPersistedAndReused",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        },
+        {
+          "name": "concurrentFallbackAndSuccessCannotDowngradeValidGuidanceOrSnapshots",
+          "class": "br.com.fiap.citizentech.water.RiskJobGuidanceIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.SensorHealthTests",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.005,
+      "cases": [
+        {
+          "name": "timestampsAndBoundaries",
+          "class": "br.com.fiap.citizentech.water.SensorHealthTests",
+          "status": "passed"
+        },
+        {
+          "name": "flatAndJumpAreOnlyPossibleFaults",
+          "class": "br.com.fiap.citizentech.water.SensorHealthTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.WaterIndicatorsTests",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.005,
+      "cases": [
+        {
+          "name": "trendUsesElapsedTimeAndRejectsDuplicateTimestamps",
+          "class": "br.com.fiap.citizentech.water.WaterIndicatorsTests",
+          "status": "passed"
+        },
+        {
+          "name": "vpdUsesAirTemperatureAndRelativeHumidity",
+          "class": "br.com.fiap.citizentech.water.WaterIndicatorsTests",
+          "status": "passed"
+        },
+        {
+          "name": "rejectsInvalidProfilesAndNonFiniteMeasurements",
+          "class": "br.com.fiap.citizentech.water.WaterIndicatorsTests",
+          "status": "passed"
+        },
+        {
+          "name": "availabilityUsesCalibratedSoilProfile",
+          "class": "br.com.fiap.citizentech.water.WaterIndicatorsTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.WaterRiskCalculatorTests",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.016,
+      "cases": [
+        {
+          "name": "missingProfileNeverProducesNormal",
+          "class": "br.com.fiap.citizentech.water.WaterRiskCalculatorTests",
+          "status": "passed"
+        },
+        {
+          "name": "deterministicRiskAndInclusiveBoundary",
+          "class": "br.com.fiap.citizentech.water.WaterRiskCalculatorTests",
+          "status": "passed"
+        },
+        {
+          "name": "trendNeverMixesSensors",
+          "class": "br.com.fiap.citizentech.water.WaterRiskCalculatorTests",
+          "status": "passed"
+        },
+        {
+          "name": "staleReadingCannotProduceAvailability",
+          "class": "br.com.fiap.citizentech.water.WaterRiskCalculatorTests",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "br.com.fiap.citizentech.water.WaterWorkflowIntegrationTests",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.212,
+      "cases": [
+        {
+          "name": "ownershipActivitiesVersionedProfileAndSnapshot",
+          "class": "br.com.fiap.citizentech.water.WaterWorkflowIntegrationTests",
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "scope": "Testes locais Java com banco/broker descartáveis e clientes IA controlados",
+  "build": {
+    "command": "mvn -B verify",
+    "success": true,
+    "logSha256": "dbb7bac9d787d8716a8ae3cfbeeb795e0885c7bc364e7dece8e614f39ff2e6b9",
+    "javaVersion": "Temurin 21.0.9",
+    "mavenVersion": "3.9.16"
+  }
+}

@@ -180,6 +180,12 @@ A auditoria registrada não encontrou chaves Google ou tokens literais nos arqui
 
 ## 11. Testes e evidências
 
+### Coleta executada em 18/11/2026
+
+Os [relatórios de execução](evidencias/README.md) incluem resultados por caso dos testes Java
+e verificação HTTP da API realizados em 18/11. O registro de sucesso da orientação real
+de 17/11 está incluído com sua data e origem preservadas.
+
 O README registra a execução completa final da API em **17/11/2026**, com Java 21: **21 suítes, 182 testes descobertos, 181 aprovados, um teste manual ignorado, zero falhas e zero erros**. O teste ignorado é `GeminiManualTests.realGeminiReturnsValidStructuredAdviceWithInstitutionalSources`, habilitado apenas deliberadamente. A suíte comum não faz chamadas Google reais e utiliza ambientes descartáveis para banco e broker.
 
 A auditoria de 15/11 já registrava 182 testes. O relatório da integração de 14/11 registrava 178, contagem histórica anterior às correções posteriores. Os **105 testes do mobile** são igualmente um resultado histórico, anterior à remoção da pasta de testes daquele repositório; não são testes existentes na versão final do mobile.

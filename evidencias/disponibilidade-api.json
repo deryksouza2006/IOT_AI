@@ -1,0 +1,20 @@
+{
+  "collectedAt": "2026-11-18T13:46:27.047669+00:00",
+  "checks": [
+    {
+      "path": "/actuator/health",
+      "httpStatus": 200,
+      "applicationStatus": "UP"
+    },
+    {
+      "path": "/v3/api-docs",
+      "httpStatus": 200,
+      "guidanceRoutePresent": true,
+      "jwtDocumented": true
+    },
+    {
+      "path": "/swagger-ui/index.html",
+      "httpStatus": 200
+    }
+  ]
+}
